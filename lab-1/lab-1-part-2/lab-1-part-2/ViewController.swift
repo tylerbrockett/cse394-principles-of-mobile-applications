@@ -28,8 +28,8 @@ class ViewController: UIViewController {
     }
     
     func calculate() {
-        let height: Float = heightSlider!.value
-        let weight: Float = weightSlider!.value
+        let height: Float = heightSlider.value
+        let weight: Float = weightSlider.value
         let BMI: Float = (weight / (height * height)) * 703.0
             
         /*
@@ -67,5 +67,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
-
