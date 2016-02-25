@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F51A03E1C7EB9100079F824 /* Place+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51A03C1C7EB9100079F824 /* Place+CoreDataProperties.swift */; };
+		2F51A03F1C7EB9100079F824 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51A03D1C7EB9100079F824 /* Place.swift */; };
+		2F51A0421C7EFA5B0079F824 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F51A0411C7EFA5B0079F824 /* Media.xcassets */; };
+		2F51A0441C7F04C00079F824 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F51A0431C7F04C00079F824 /* CustomCell.swift */; };
+		2F8CCFA41C7E948900152055 /* PlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8CCFA31C7E948900152055 /* PlaceTableViewController.swift */; };
 		2FBD5A601C78055F002F14A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD5A5F1C78055F002F14A5 /* AppDelegate.swift */; };
-		2FBD5A621C78055F002F14A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD5A611C78055F002F14A5 /* ViewController.swift */; };
+		2FBD5A621C78055F002F14A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD5A611C78055F002F14A5 /* DetailViewController.swift */; };
 		2FBD5A651C780560002F14A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD5A631C780560002F14A5 /* Main.storyboard */; };
 		2FBD5A681C780560002F14A5 /* hw_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD5A661C780560002F14A5 /* hw_2.xcdatamodeld */; };
 		2FBD5A6A1C780560002F14A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD5A691C780560002F14A5 /* Assets.xcassets */; };
@@ -16,9 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F51A03C1C7EB9100079F824 /* Place+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Place+CoreDataProperties.swift"; path = "hw-2/core-data/Place+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2F51A03D1C7EB9100079F824 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = "hw-2/core-data/Place.swift"; sourceTree = "<group>"; };
+		2F51A0411C7EFA5B0079F824 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		2F51A0431C7F04C00079F824 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		2F8CCFA31C7E948900152055 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
 		2FBD5A5C1C78055F002F14A5 /* hw-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FBD5A5F1C78055F002F14A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2FBD5A611C78055F002F14A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2FBD5A611C78055F002F14A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2FBD5A641C780560002F14A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FBD5A671C780560002F14A5 /* hw_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hw_2.xcdatamodel; sourceTree = "<group>"; };
 		2FBD5A691C780560002F14A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F51A0401C7EB9180079F824 /* core-data */ = {
+			isa = PBXGroup;
+			children = (
+				2F51A03C1C7EB9100079F824 /* Place+CoreDataProperties.swift */,
+				2F51A03D1C7EB9100079F824 /* Place.swift */,
+			);
+			name = "core-data";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		2FBD5A531C78055F002F14A5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +76,17 @@
 		2FBD5A5E1C78055F002F14A5 /* hw-2 */ = {
 			isa = PBXGroup;
 			children = (
+				2F51A0401C7EB9180079F824 /* core-data */,
 				2FBD5A5F1C78055F002F14A5 /* AppDelegate.swift */,
-				2FBD5A611C78055F002F14A5 /* ViewController.swift */,
+				2FBD5A611C78055F002F14A5 /* DetailViewController.swift */,
 				2FBD5A631C780560002F14A5 /* Main.storyboard */,
 				2FBD5A691C780560002F14A5 /* Assets.xcassets */,
 				2FBD5A6B1C780560002F14A5 /* LaunchScreen.storyboard */,
 				2FBD5A6E1C780560002F14A5 /* Info.plist */,
 				2FBD5A661C780560002F14A5 /* hw_2.xcdatamodeld */,
+				2F8CCFA31C7E948900152055 /* PlaceTableViewController.swift */,
+				2F51A0411C7EFA5B0079F824 /* Media.xcassets */,
+				2F51A0431C7F04C00079F824 /* CustomCell.swift */,
 			);
 			path = "hw-2";
 			sourceTree = "<group>";
@@ -127,6 +151,7 @@
 			files = (
 				2FBD5A6D1C780560002F14A5 /* LaunchScreen.storyboard in Resources */,
 				2FBD5A6A1C780560002F14A5 /* Assets.xcassets in Resources */,
+				2F51A0421C7EFA5B0079F824 /* Media.xcassets in Resources */,
 				2FBD5A651C780560002F14A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +163,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FBD5A621C78055F002F14A5 /* ViewController.swift in Sources */,
+				2FBD5A621C78055F002F14A5 /* DetailViewController.swift in Sources */,
+				2F8CCFA41C7E948900152055 /* PlaceTableViewController.swift in Sources */,
 				2FBD5A601C78055F002F14A5 /* AppDelegate.swift in Sources */,
+				2F51A03F1C7EB9100079F824 /* Place.swift in Sources */,
+				2F51A03E1C7EB9100079F824 /* Place+CoreDataProperties.swift in Sources */,
+				2F51A0441C7F04C00079F824 /* CustomCell.swift in Sources */,
 				2FBD5A681C780560002F14A5 /* hw_2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,6 +319,7 @@
 				2FBD5A731C780560002F14A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
