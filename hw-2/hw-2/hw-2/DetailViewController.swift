@@ -104,7 +104,6 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
         } catch _ {
             NSLog("Error saving data.")
         }
-        // dismissViewControllerAnimated(true, completion: nil)
         navigationController!.popViewControllerAnimated(true)
     }
     
@@ -130,7 +129,6 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.view.frame.origin.y = self.defaultHeight
     }
     
-    
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         super.touchesBegan(touches, withEvent:event)
         view.endEditing(true)
@@ -143,7 +141,6 @@ class DetailViewController: UIViewController, UIImagePickerControllerDelegate, U
         self.descTV.resignFirstResponder()
         return true
     }
-    
     
     // Voodoo junk to make view move up ONLY for the TextView, NOT TextField.
     func textFieldDidBeginEditing(textField: UITextField){ active = nameTF }
