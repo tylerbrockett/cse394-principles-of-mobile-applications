@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		2F0AA53C1CA0AC3E00F8E3B6 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		2F0AA53E1CA1155900F8E3B6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		2F742B831CA0A19C005B0CB1 /* lab-6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32BB8B1CDDB60400F8C624 /* lab-6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "lab-6.app"; path = "/Volumes/HDD/394/394/lab-6/lab-6/build/Debug-iphoneos/lab-6.app"; sourceTree = "<absolute>"; };
 		2F742B861CA0A19C005B0CB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F742B8B1CA0A19C005B0CB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F742B8D1CA0A19C005B0CB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,16 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				2F742B851CA0A19C005B0CB1 /* lab-6 */,
-				2F742B841CA0A19C005B0CB1 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2F742B841CA0A19C005B0CB1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F742B831CA0A19C005B0CB1 /* lab-6.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2F742B851CA0A19C005B0CB1 /* lab-6 */ = {
@@ -93,7 +84,7 @@
 			);
 			name = "lab-6";
 			productName = "lab-6";
-			productReference = 2F742B831CA0A19C005B0CB1 /* lab-6.app */;
+			productReference = 2F32BB8B1CDDB60400F8C624 /* lab-6.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -120,7 +111,7 @@
 				Base,
 			);
 			mainGroup = 2F742B7A1CA0A19C005B0CB1;
-			productRefGroup = 2F742B841CA0A19C005B0CB1 /* Products */;
+			productRefGroup = 2F742B7A1CA0A19C005B0CB1;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

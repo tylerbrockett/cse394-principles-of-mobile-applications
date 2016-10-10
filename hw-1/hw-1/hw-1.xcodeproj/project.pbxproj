@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F93C9F51C59E50200B8E494 /* hw-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F93C9F51C59E50200B8E494 /* hw-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "hw-1.app"; path = "/Volumes/HDD/394/394/hw-1/hw-1/build/Debug-iphoneos/hw-1.app"; sourceTree = "<absolute>"; };
 		2F93C9F81C59E50200B8E494 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F93C9FA1C59E50200B8E494 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F93C9FD1C59E50200B8E494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,16 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				2F93C9F71C59E50200B8E494 /* hw-1 */,
-				2F93C9F61C59E50200B8E494 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2F93C9F61C59E50200B8E494 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F93C9F51C59E50200B8E494 /* hw-1.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2F93C9F71C59E50200B8E494 /* hw-1 */ = {
@@ -111,7 +102,7 @@
 				Base,
 			);
 			mainGroup = 2F93C9EC1C59E50200B8E494;
-			productRefGroup = 2F93C9F61C59E50200B8E494 /* Products */;
+			productRefGroup = 2F93C9EC1C59E50200B8E494;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -290,6 +281,7 @@
 				2F93CA091C59E50200B8E494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

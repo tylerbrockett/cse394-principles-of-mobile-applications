@@ -26,7 +26,7 @@
 		2F51A0411C7EFA5B0079F824 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		2F51A0431C7F04C00079F824 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		2F8CCFA31C7E948900152055 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
-		2FBD5A5C1C78055F002F14A5 /* hw-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hw-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBD5A5C1C78055F002F14A5 /* hw-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "hw-2.app"; path = "/Volumes/HDD/394/394/hw-2/hw-2/build/Debug-iphoneos/hw-2.app"; sourceTree = "<absolute>"; };
 		2FBD5A5F1C78055F002F14A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FBD5A611C78055F002F14A5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2FBD5A641C780560002F14A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,16 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2FBD5A5E1C78055F002F14A5 /* hw-2 */,
-				2FBD5A5D1C78055F002F14A5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2FBD5A5D1C78055F002F14A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2FBD5A5C1C78055F002F14A5 /* hw-2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2FBD5A5E1C78055F002F14A5 /* hw-2 */ = {
@@ -135,7 +126,7 @@
 				Base,
 			);
 			mainGroup = 2FBD5A531C78055F002F14A5;
-			productRefGroup = 2FBD5A5D1C78055F002F14A5 /* Products */;
+			productRefGroup = 2FBD5A531C78055F002F14A5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

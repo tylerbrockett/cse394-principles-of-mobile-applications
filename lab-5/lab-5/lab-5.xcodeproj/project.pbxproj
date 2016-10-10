@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F8166421C8674D800B94364 /* lab-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8166421C8674D800B94364 /* lab-5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "lab-5.app"; path = "/Volumes/HDD/394/394/lab-5/lab-5/build/Debug-iphoneos/lab-5.app"; sourceTree = "<absolute>"; };
 		2F8166451C8674D800B94364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F81664A1C8674D800B94364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F81664D1C8674D900B94364 /* lab_5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lab_5.xcdatamodel; sourceTree = "<group>"; };
@@ -49,16 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				2F8166441C8674D800B94364 /* lab-5 */,
-				2F8166431C8674D800B94364 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2F8166431C8674D800B94364 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F8166421C8674D800B94364 /* lab-5.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2F8166441C8674D800B94364 /* lab-5 */ = {
@@ -131,7 +122,7 @@
 				Base,
 			);
 			mainGroup = 2F8166391C8674D800B94364;
-			productRefGroup = 2F8166431C8674D800B94364 /* Products */;
+			productRefGroup = 2F8166391C8674D800B94364;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

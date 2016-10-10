@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F52BA601C4D921E00B01135 /* lab-1-part-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-1-part-1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F52BA601C4D921E00B01135 /* lab-1-part-1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "lab-1-part-1.app"; path = "/Volumes/HDD/394/394/lab-1/lab-1-part-1/build/Debug-iphoneos/lab-1-part-1.app"; sourceTree = "<absolute>"; };
 		2F52BA631C4D921E00B01135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F52BA651C4D921E00B01135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F52BA681C4D921E00B01135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,16 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				2F52BA621C4D921E00B01135 /* lab-1-part-1 */,
-				2F52BA611C4D921E00B01135 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2F52BA611C4D921E00B01135 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F52BA601C4D921E00B01135 /* lab-1-part-1.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2F52BA621C4D921E00B01135 /* lab-1-part-1 */ = {
@@ -108,7 +99,7 @@
 				Base,
 			);
 			mainGroup = 2F52BA571C4D921D00B01135;
-			productRefGroup = 2F52BA611C4D921E00B01135 /* Products */;
+			productRefGroup = 2F52BA571C4D921D00B01135;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -286,6 +277,7 @@
 				2F52BA741C4D921F00B01135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

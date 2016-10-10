@@ -20,7 +20,7 @@
 /* Begin PBXFileReference section */
 		2F130F8C1C791179006A861B /* Locations+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Locations+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2F130F8D1C791179006A861B /* Locations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
-		2FBD5A7D1C7805A2002F14A5 /* lab-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F32BB8A1CDDB5E600F8C624 /* lab-4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "lab-4.app"; path = "/Volumes/HDD/394/394/lab-4/lab-4/build/Debug-iphoneos/lab-4.app"; sourceTree = "<absolute>"; };
 		2FBD5A801C7805A2002F14A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FBD5A821C7805A2002F14A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FBD5A851C7805A2002F14A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,16 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				2FBD5A7F1C7805A2002F14A5 /* lab-4 */,
-				2FBD5A7E1C7805A2002F14A5 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2FBD5A7E1C7805A2002F14A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2FBD5A7D1C7805A2002F14A5 /* lab-4.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2FBD5A7F1C7805A2002F14A5 /* lab-4 */ = {
@@ -98,7 +89,7 @@
 			);
 			name = "lab-4";
 			productName = "lab-4";
-			productReference = 2FBD5A7D1C7805A2002F14A5 /* lab-4.app */;
+			productReference = 2F32BB8A1CDDB5E600F8C624 /* lab-4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +116,7 @@
 				Base,
 			);
 			mainGroup = 2FBD5A741C7805A2002F14A5;
-			productRefGroup = 2FBD5A7E1C7805A2002F14A5 /* Products */;
+			productRefGroup = 2FBD5A741C7805A2002F14A5;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

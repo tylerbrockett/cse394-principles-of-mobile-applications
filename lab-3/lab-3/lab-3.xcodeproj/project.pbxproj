@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2F77238B1C77DBEA00783995 /* lab-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lab-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F77238B1C77DBEA00783995 /* lab-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "lab-3.app"; path = "/Volumes/HDD/394/394/lab-3/lab-3/build/Debug-iphoneos/lab-3.app"; sourceTree = "<absolute>"; };
 		2F77238E1C77DBEA00783995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F7723931C77DBEA00783995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F7723951C77DBEA00783995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,16 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				2F77238D1C77DBEA00783995 /* lab-3 */,
-				2F77238C1C77DBEA00783995 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		2F77238C1C77DBEA00783995 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				2F77238B1C77DBEA00783995 /* lab-3.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		2F77238D1C77DBEA00783995 /* lab-3 */ = {
@@ -120,7 +111,7 @@
 				Base,
 			);
 			mainGroup = 2F7723821C77DBEA00783995;
-			productRefGroup = 2F77238C1C77DBEA00783995 /* Products */;
+			productRefGroup = 2F7723821C77DBEA00783995;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
